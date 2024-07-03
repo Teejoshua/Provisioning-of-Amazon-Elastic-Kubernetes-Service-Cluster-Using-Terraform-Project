@@ -1,8 +1,8 @@
-# PROVISION EKS (Amazon Elastic Kubernetes Service) CLUSTER ON AWS USING TERRAFORM
+# PROVISION Amazon Elastic Kubernetes Service (EKS) CLUSTER ON AWS USING TERRAFORM
 
 ![aws-eks](https://imgur.com/Xa9NlJi.png)
 
-## Introduction
+## Brief Introduction Before Project Steps
 
 ### What is EKS?
 
@@ -537,7 +537,4 @@ And here are the two nodes.
 
 _*This provides a comprehensive guide on provisioning an Amazon Elastic Kubernetes Service (EKS) cluster on AWS using Terraform. It covers the necessary prerequisites, creation of an S3 bucket for storing the Terraform state file, enabling state-locking with DynamoDB, creating the required Terraform files, running Terraform commands to provision the resources, verifying the created resources in the AWS account, SSH into the Kubectl server, installing AWS CLI on the server, setting up the EKS cluster using AWS CLI, and verifying the cluster’s status. By following these basic steps, we can successfully provision an EKS cluster on AWS using Terraform*_
 
-# Hit the Star! ⭐
-***If you are planning to use this repo for learning, please hit the star. Thanks!***
-
-#### Author by [Harshhaa Reddy](https://github.com/NotHarshhaa)
+#### Project Authored by [Joshua Tanimola](https://github.com/Teejoshua)
