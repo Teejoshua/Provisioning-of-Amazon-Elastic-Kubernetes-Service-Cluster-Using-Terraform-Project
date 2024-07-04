@@ -533,6 +533,12 @@ And here are the two nodes.
 
 ***Note: Run terraform destroy to remove all provisioned infrastructures from your AWS account so as not to incur unnecessary bills on your account. Also, remember to delete the S3 bucket and the DynamoDB table***
 
+## ***The EKS Cluster Has Been Deployed using Terraform***
+
+<p align="center">
+  <img src="https://imgur.com/7iMQJlY.gif" />
+</p>
+
 ## CONCLUSION
 
 _*This provides a comprehensive guide on provisioning an Amazon Elastic Kubernetes Service (EKS) cluster on AWS using Terraform. It covers the necessary prerequisites, creation of an S3 bucket for storing the Terraform state file, enabling state-locking with DynamoDB, creating the required Terraform files, running Terraform commands to provision the resources, verifying the created resources in the AWS account, SSH into the Kubectl server, installing AWS CLI on the server, setting up the EKS cluster using AWS CLI, and verifying the cluster’s status. By following these basic steps, we can successfully provision an EKS cluster on AWS using Terraform*_
